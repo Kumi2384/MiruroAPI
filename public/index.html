@@ -279,16 +279,16 @@
     "@type": "WebAPI",
     "name": "MiruroAPI",
     "description": "Free RESTful API for anime streaming data. 46 endpoints, 12 providers, M3U8 streaming URLs.",
-    "url": "https://mirurotvapi.vercel.app",
-    "image": "https://mirurotvapi.vercel.app/og-image.png",
-    "documentation": "https://mirurotvapi.vercel.app/docs",
+    "url": "https://miruro-api-two.vercel.app/",
+    "image": "https://miruro-api-two.vercel.app/og-image.png",
+    "documentation": "https://miruro-api-two.vercel.app/docs",
     "provider": {
       "@type": "Organization",
       "name": "MiruroAPI",
       "url": "https://github.com/Shineii86/MiruroAPI"
     },
     "category": "Anime Streaming API",
-    "endpoint": "https://mirurotvapi.vercel.app/api",
+    "endpoint": "https://miruro-api-two.vercel.app/api",
     "programmingModel": "REST",
     "documentationUrl": "https://github.com/Shineii86/MiruroAPI/tree/main/docs"
   }
@@ -346,7 +346,7 @@
         </div>
         <div class="console-body">
           <textarea class="console-input" id="consoleInput" rows="6" spellcheck="false">// Search for anime
-fetch("https://mirurotvapi.vercel.app/api/search?query=naruto")
+fetch("https://miruro-api-two.vercel.app/api/search?query=naruto")
   .then(r => r.json())
   .then(data => {
     console.log(data.results);
@@ -464,7 +464,7 @@ fetch("https://mirurotvapi.vercel.app/api/search?query=naruto")
             API Reference
           </div>
           <h2 class="section-title">Endpoints</h2>
-          <p class="section-desc">All endpoints return JSON. Base URL: <code style="color:var(--accent);background:rgba(56,189,248,.1);padding:2px 8px;border-radius:4px">https://mirurotvapi.vercel.app/api</code></p>
+          <p class="section-desc">All endpoints return JSON. Base URL: <code style="color:var(--accent);background:rgba(56,189,248,.1);padding:2px 8px;border-radius:4px">https://miruro-api-two.vercel.app/api</code></p>
         </div>
 
         <div class="explorer reveal" id="explorer">
@@ -680,7 +680,7 @@ fetch("https://mirurotvapi.vercel.app/api/search?query=naruto")
     });
 
     /* ── Console ── */
-    const BASE = 'https://mirurotvapi.vercel.app/api';
+    const BASE = 'https://miruro-api-two.vercel.app/api';
     const endpoints = {
       search: { url: '/search?query=naruto', label: 'Search' },
       trending: { url: '/trending', label: 'Trending' },
